@@ -3,7 +3,7 @@ const videoGrid = document.getElementById("video-grid");
 var myPeer = new Peer(undefined, {
   secure: true,
   host: "bechatty.herokuapp.com",
-  port: 443,
+  port: 9000,
 });
 const myVideo = document.createElement("video");
 myVideo.muted = true;
